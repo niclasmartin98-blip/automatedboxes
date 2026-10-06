@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Swiss Souvenir Box">
+  <rect width="64" height="64" rx="16" fill="#B82027"/>
+  <path d="M10 43 24 25l8 10 7-9 15 17" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="48" cy="18" r="4" fill="#F5D8A8"/>
+</svg>

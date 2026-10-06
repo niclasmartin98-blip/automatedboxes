@@ -1,21 +1,387 @@
-<!DOCTYPE html>
-<html lang="de">
+<!doctype html>
+<html lang="de-CH">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swiss Souvenir Box | Automated Boxes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Swiss Souvenir Box | 24/7 Souvenirboutique für Schweizer Tourismusstandorte</title>
+  <meta name="description" content="Swiss Souvenir Box ist eine hochwertige, automatisierte Souvenirboutique für Hotels, Bergbahnen, Tourismusorganisationen und stark frequentierte Standorte in der Schweiz – regional kuratiert, flexibel integrierbar und rund um die Uhr verfügbar.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#F6F2EA">
+  <link rel="canonical" href="https://automatedboxes.ch/souvenir/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_CH">
+  <meta property="og:site_name" content="Automatic Boxes">
+  <meta property="og:title" content="Swiss Souvenir Box | Boutique statt Automat">
+  <meta property="og:description" content="Eine hochwertige, automatisierte Souvenirboutique für touristische Standorte in der Schweiz – regional kuratiert, rund um die Uhr verfügbar und flexibel an den Standort anpassbar.">
+  <meta property="og:url" content="https://automatedboxes.ch/souvenir/">
+  <meta property="og:image" content="https://automatedboxes.ch/souvenir/assets/og-souvenir-box.jpg">
+  <meta property="og:image:alt" content="Konzeptvisualisierung der Swiss Souvenir Box als hochwertige rote Souvenirboutique">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Swiss Souvenir Box",
+    "url": "https://automatedboxes.ch/souvenir/",
+    "description": "Automatisierte, regional kuratierte Souvenirboutique für touristische Standorte in der Schweiz.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Automatic Boxes",
+      "url": "https://automatedboxes.ch/"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Switzerland"
+    }
+  }
+  </script>
 </head>
-
 <body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
 
-    <a href="../">← Zurück zu Automated Boxes</a>
+  <header class="site-header" data-header>
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Swiss Souvenir Box Startseite">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" focusable="false">
+            <path d="M7 34 17.5 20 24 28l5.5-7L41 34"/>
+            <circle cx="36" cy="13" r="2.8"/>
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <strong>Swiss Souvenir Box</strong>
+          <small>by Automatic Boxes</small>
+        </span>
+      </a>
 
-    <h1>Swiss Souvenir Box</h1>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Navigation öffnen">
+        <span></span><span></span>
+      </button>
 
-    <p>
-        Schweizer Souvenirs und regionale Produkte –
-        rund um die Uhr verfügbar.
-    </p>
+      <nav class="primary-nav" id="primary-nav" aria-label="Hauptnavigation">
+        <a href="#konzept">Konzept</a>
+        <a href="#sortiment">Sortiment</a>
+        <a href="#partner">Für Partner</a>
+        <a href="#integration">Integration</a>
+        <a href="#pilot">Pilot</a>
+        <a class="nav-parent" href="../" aria-label="Zur Website von Automatic Boxes">Automatic Boxes <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
 
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-orbit hero-orbit-one" aria-hidden="true"></div>
+      <div class="hero-orbit hero-orbit-two" aria-hidden="true"></div>
+
+      <div class="shell hero-layout">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> Pilotprojekt · Schweiz</div>
+          <h1 id="hero-title">Schweizer Erinnerungen.<br><em>Genau dort, wo Gäste unterwegs sind.</em></h1>
+          <p class="hero-lead">Swiss Souvenir Box ist eine hochwertige, automatisierte Souvenirboutique für Hotels, Bergbahnen, Tourismusorganisationen und stark frequentierte Gästepunkte – regional kuratiert, flexibel integrierbar und ohne permanente Personalbindung.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#kontakt">Pilotstandort besprechen</a>
+            <a class="button button-ghost" href="#konzept">Konzept ansehen <span aria-hidden="true">↓</span></a>
+          </div>
+          <ul class="hero-facts" aria-label="Kernmerkmale">
+            <li><strong>24/7</strong><span>verfügbar*</span></li>
+            <li><strong>Cashless</strong><span>einfach bezahlen</span></li>
+            <li><strong>Regional</strong><span>kuratiertes Sortiment</span></li>
+            <li><strong>Modular</strong><span>Design & Produkte</span></li>
+          </ul>
+          <p class="micro-note">* abhängig von der Zugänglichkeit des jeweiligen Standorts</p>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay">
+          <div class="visual-label"><span>Konzeptvisualisierung</span><span>01 / Premium-Koffer</span></div>
+          <figure class="machine-frame">
+            <img src="assets/concept-suitcase.webp" width="980" height="1225" alt="Konzeptvisualisierung einer roten Swiss Souvenir Box im hochwertigen Reisekoffer-Design" fetchpriority="high">
+          </figure>
+          <div class="hero-caption">
+            <span>Kein klassischer Snackautomat.</span>
+            <strong>Eine kleine Boutique im Raum.</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro-band" aria-label="Positionierung">
+      <div class="shell intro-band-grid">
+        <p>Boutique statt Automat.</p>
+        <p>Ein zusätzlicher Verkaufspunkt dort, wo ein eigener Shop zu aufwendig wäre – mit einer Gestaltung, die zum Ort passt.</p>
+      </div>
+    </section>
+
+    <section class="section" id="konzept" aria-labelledby="konzept-title">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">Das Konzept</span>
+            <h2 id="konzept-title">Aus Gästefrequenz wird ein guter Verkaufsmoment.</h2>
+          </div>
+          <p>Souvenirverkauf scheitert oft nicht an der Nachfrage, sondern an Öffnungszeiten, Personalaufwand und fehlender Fläche. Die Swiss Souvenir Box bündelt Verkauf, Gestaltung und lokale Identität in einem kompakten Format.</p>
+        </div>
+
+        <div class="concept-grid">
+          <article class="concept-card reveal">
+            <span class="step-number">01</span>
+            <div class="icon-shell" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><path d="M6 22.5V13l10-7 10 7v9.5M10 26h12M12 18h8M16 18v8"/></svg>
+            </div>
+            <h3>Entdecken</h3>
+            <p>Standortbezogene Produkte und eine hochwertige Inszenierung schaffen Aufmerksamkeit – direkt im natürlichen Gästelauf.</p>
+          </article>
+
+          <article class="concept-card reveal reveal-delay-sm">
+            <span class="step-number">02</span>
+            <div class="icon-shell" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><path d="M7 8h18v16H7zM11 12h10M11 16h6M11 20h8"/></svg>
+            </div>
+            <h3>Auswählen</h3>
+            <p>Ein kuratiertes Sortiment statt überladener Auswahl. Lokale Editionen, klare Produktinformationen und QR-Stories geben Orientierung.</p>
+          </article>
+
+          <article class="concept-card reveal reveal-delay-md">
+            <span class="step-number">03</span>
+            <div class="icon-shell" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><rect x="5" y="9" width="22" height="15" rx="2"/><path d="M5 14h22M20 19h3"/></svg>
+            </div>
+            <h3>Bezahlen</h3>
+            <p>Bargeldlos und intuitiv. Das Konzept ist auf schnelle, internationale Nutzung ohne dauerhaft besetzten Verkaufspunkt ausgelegt.</p>
+          </article>
+
+          <article class="concept-card reveal reveal-delay-lg">
+            <span class="step-number">04</span>
+            <div class="icon-shell" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><path d="M8 12h16l-1 14H9L8 12Z"/><path d="M12 12a4 4 0 0 1 8 0"/></svg>
+            </div>
+            <h3>Mitnehmen</h3>
+            <p>Eine echte Erinnerung, ein Geschenk oder ein regionales Produkt – direkt dort verfügbar, wo der Kaufimpuls entsteht.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="verfuegbarkeit" aria-labelledby="verfuegbarkeit-title">
+      <div class="shell dark-layout">
+        <div class="dark-copy reveal">
+          <span class="section-kicker light">24/7 verfügbar</span>
+          <h2 id="verfuegbarkeit-title">Mehr Gästeservice. Weniger Betriebsaufwand.</h2>
+          <p>Früh am Morgen, nach Ladenschluss oder zwischen zwei Programmpunkten: Die Box erweitert den Verkauf über klassische Öffnungszeiten hinaus. Für den Standort entsteht ein zusätzlicher Service- und Verkaufspunkt, ohne einen eigenen Souvenirshop aufbauen zu müssen.</p>
+          <div class="dark-actions">
+            <a class="button button-light" href="#partner">Vorteile für Partner</a>
+          </div>
+        </div>
+
+        <div class="signal-grid" aria-label="Technische und operative Merkmale">
+          <div class="signal-card reveal"><strong>24/7</strong><span>Verkauf ausserhalb klassischer Shopzeiten</span></div>
+          <div class="signal-card reveal reveal-delay-sm"><strong>Remote</strong><span>Bestände und Störungen aus der Ferne im Blick</span></div>
+          <div class="signal-card reveal reveal-delay-md"><strong>Flexibel</strong><span>Fächer, Sortiment und Auftritt anpassbar</span></div>
+          <div class="signal-card reveal reveal-delay-lg"><strong>Einfach</strong><span>Nachfüllung mit klarer Produktlogik organisierbar</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section assortment-section" id="sortiment" aria-labelledby="sortiment-title">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">Sortiment</span>
+            <h2 id="sortiment-title">Kuratierte Mitnahmeartikel statt austauschbarer Massenware.</h2>
+          </div>
+          <p>Das Sortiment verbindet bewährte Schweizer Souvenir-Kategorien mit Produkten, die zum konkreten Ort passen. Im Pilot stehen kompakte, robuste und gut lagerbare Artikel im Vordergrund.</p>
+        </div>
+
+        <div class="assortment-layout">
+          <div class="assortment-list reveal">
+            <article><span>01</span><div><h3>Magnete & Pins</h3><p>Hochwertige Metall-, Emaille- und Reliefvarianten mit regionalen Motiven.</p></div></article>
+            <article><span>02</span><div><h3>Reiseartikel</h3><p>Schlüsselanhänger, Gepäckanhänger und kleine, unkomplizierte Reisebegleiter.</p></div></article>
+            <article><span>03</span><div><h3>Glocken & Holzobjekte</h3><p>Kleine Schweizer Klassiker und regionale Designobjekte mit Geschenkcharakter.</p></div></article>
+            <article><span>04</span><div><h3>Prints & Postkarten-Sets</h3><p>Fotografie, Illustration und lokale Kunst in automatengeeigneten Formaten.</p></div></article>
+            <article><span>05</span><div><h3>Textilien & Geschenksets</h3><p>Socken, Caps, Stoffbeutel, Kinder-Sets und kuratierte Geschenkboxen.</p></div></article>
+            <article><span>06</span><div><h3>Regionale Genussprodukte</h3><p>Optional ausgewählte, lang haltbare Produkte – nur dort, wo Technik und Betrieb sinnvoll passen.</p></div></article>
+          </div>
+
+          <aside class="assortment-note reveal reveal-delay">
+            <span class="note-label">Sortimentsprinzip</span>
+            <h3>Kernsortiment + lokale Edition.</h3>
+            <p>Der Mix wird je Standort angepasst. Bestseller sorgen für Verlässlichkeit; lokale Artikel schaffen Differenzierung und einen echten Bezug zur Region.</p>
+            <div class="mix-bar" aria-label="Beispielhafter Mix aus Kernsortiment und lokalem Sortiment">
+              <span class="mix-core">70% Kernsortiment</span><span class="mix-local">30% lokal</span>
+            </div>
+            <ul class="check-list">
+              <li>klein, robust und gut lagerbar</li>
+              <li>klare Geschichte oder Herkunft</li>
+              <li>geeignet für spontane Mitnahme</li>
+              <li>lokale Produkte in kleinen Tests integrierbar</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section region-section" id="regionalitaet" aria-labelledby="regionalitaet-title">
+      <div class="shell region-layout">
+        <div class="region-art reveal" aria-hidden="true">
+          <div class="mountain-line">
+            <svg viewBox="0 0 680 350" preserveAspectRatio="none">
+              <path class="ridge-back" d="M0 280 85 212 145 244 255 118 314 189 405 84 492 190 557 137 680 265"/>
+              <path class="ridge-front" d="M0 322 124 253 192 286 302 183 374 248 470 164 530 226 604 190 680 252"/>
+            </svg>
+          </div>
+          <div class="regional-stamp"><span>LOCAL</span><strong>×</strong><span>SWISS</span></div>
+        </div>
+
+        <div class="region-copy reveal reveal-delay">
+          <span class="section-kicker">Regionalität</span>
+          <h2 id="regionalitaet-title">Ein Verkaufskanal für Produkte mit Herkunft.</h2>
+          <p>Die Box kann lokale Händler, kleine Manufakturen, Künstler, Museen oder standorteigene Produkte einbinden. So wird aus einer Standardlösung ein sichtbarer Teil des Ortes.</p>
+          <div class="region-points">
+            <div><strong>Lokale Editionen</strong><span>Motive, Produkte oder Sets passend zur Region, zum Hotel oder zur Bergbahn.</span></div>
+            <div><strong>QR-Stories</strong><span>Hersteller, Künstler und Herkunft können direkt am Produkt erklärt werden.</span></div>
+            <div><strong>Kleine Tests</strong><span>Neue Artikel lassen sich ohne zusätzliche Ladenfläche schrittweise erproben.</span></div>
+            <div><strong>Co-Branding</strong><span>Gestaltung und Sortiment können die Identität des Standortpartners aufnehmen.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section partner-section" id="partner" aria-labelledby="partner-title">
+      <div class="shell">
+        <div class="section-heading partner-heading reveal">
+          <div>
+            <span class="section-kicker">Für Standortpartner</span>
+            <h2 id="partner-title">Zusätzliche Verkaufsfläche, ohne ein neues Handelsgeschäft aufzubauen.</h2>
+          </div>
+          <p>Die Aufgaben werden klar geteilt. Der Standort bringt Fläche, Frequenz und lokales Wissen ein; Swiss Souvenir Box organisiert das System rund um Technik, Sortiment und Betrieb.</p>
+        </div>
+
+        <div class="partner-types reveal" aria-label="Geeignete Standorttypen">
+          <span>Hotels & Resorts</span>
+          <span>Bergbahnen</span>
+          <span>Tourismusbüros</span>
+          <span>Bahnhöfe</span>
+          <span>Gemeinden &amp; Destinationen</span>
+          <span>Besucherzentren</span>
+          <span>Attraktionen</span>
+        </div>
+
+        <div class="responsibility-grid">
+          <article class="responsibility-card partner-provides reveal">
+            <span class="card-tag">Standortpartner</span>
+            <h3>Sie kennen den Ort.</h3>
+            <ul>
+              <li>geeignete, sichtbare Fläche mit Gästefrequenz</li>
+              <li>Stromanschluss und Zugang für Kontrolle / Befüllung</li>
+              <li>lokales Wissen und Empfehlungen für regionale Produkte</li>
+              <li>optional: einfache Nachfüllung nach klarer Belegungslogik</li>
+            </ul>
+          </article>
+
+          <article class="responsibility-card box-provides reveal reveal-delay">
+            <span class="card-tag">Swiss Souvenir Box</span>
+            <h3>Wir bauen das Verkaufssystem darum.</h3>
+            <ul>
+              <li>Automat, Gestaltung und technische Plattform</li>
+              <li>Sortimentsplanung, Einkauf und Nachlieferlogik</li>
+              <li>Zahlungsabwicklung, Telemetrie und Bestandskontrolle</li>
+              <li>Support, Marketingmaterial und laufende Optimierung</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="benefit-row">
+          <div class="benefit reveal"><span>01</span><h3>Gästeservice</h3><p>Souvenirs auch ausserhalb klassischer Öffnungszeiten verfügbar.</p></div>
+          <div class="benefit reveal reveal-delay-sm"><span>02</span><h3>Zusatzpotenzial</h3><p>Je nach Modell Umsatzbeteiligung, Miete oder individuell vereinbarte Zusammenarbeit.</p></div>
+          <div class="benefit reveal reveal-delay-md"><span>03</span><h3>Profilierung</h3><p>Regionale Editionen und Co-Branding machen den Standort sichtbar.</p></div>
+          <div class="benefit reveal reveal-delay-lg"><span>04</span><h3>Daten</h3><p>Verkäufe und Produktperformance werden transparent und optimierbar.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section integration-section" id="integration" aria-labelledby="integration-title">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">Flexible Integration</span>
+            <h2 id="integration-title">Technik standardisieren. Erscheinungsbild lokalisieren.</h2>
+          </div>
+          <p>Die Grundidee: Bedienlogik und technische Basis bleiben möglichst einheitlich. Aussenwirkung, Produktbelegung und Co-Branding werden an Region und Standort angepasst.</p>
+        </div>
+
+        <div class="design-gallery">
+          <figure class="design-card design-card-main reveal">
+            <div class="image-wrap"><img src="assets/concept-wood.webp" width="900" height="1125" alt="Konzeptvisualisierung einer Swiss Souvenir Box mit roter Front und Holzseiten" loading="lazy"></div>
+            <figcaption><span>Alpiner Premium-Look</span><strong>Warm, regional, hochwertig.</strong></figcaption>
+          </figure>
+          <figure class="design-card reveal reveal-delay">
+            <div class="image-wrap"><img src="assets/concept-standard.webp" width="900" height="1125" alt="Konzeptvisualisierung einer modernen roten Swiss Souvenir Box" loading="lazy"></div>
+            <figcaption><span>Moderner Retail-Look</span><strong>Klar, sichtbar, leicht integrierbar.</strong></figcaption>
+          </figure>
+          <div class="integration-facts reveal reveal-delay-md">
+            <div><span>01</span><h3>Geringer Platzbedarf</h3><p>Die konkrete Geräteausführung wird auf verfügbare Fläche, Sortiment und Frequenz abgestimmt.</p></div>
+            <div><span>02</span><h3>Ein Stromanschluss</h3><p>Die Standortprüfung klärt Anschluss, Zugang, Indoor-/Outdoor-Eignung und technische Anforderungen.</p></div>
+            <div><span>03</span><h3>Flexible Fächer</h3><p>Produkte werden vorab vermessen und die Belegung auf sichere, zuverlässige Ausgabe abgestimmt.</p></div>
+            <div><span>04</span><h3>Individuelle Optik</h3><p>Koffer, Holz, moderner Premium-Look oder Co-Branding – die Hülle folgt dem Standort.</p></div>
+          </div>
+        </div>
+        <p class="visual-disclaimer">Gezeigte Geräte sind Konzeptvisualisierungen. Finale Ausführung, Technik, Abmessungen und Beklebung werden für den jeweiligen Pilotstandort definiert.</p>
+      </div>
+    </section>
+
+    <section class="section pilot-section" id="pilot" aria-labelledby="pilot-title">
+      <div class="shell pilot-layout">
+        <div class="pilot-intro reveal">
+          <span class="section-kicker">Pilot & Zusammenarbeit</span>
+          <h2 id="pilot-title">Der erste Standort soll nicht nur gut aussehen – er soll belastbare Daten liefern.</h2>
+          <p>Für den Pilot wählen wir Standorte nicht allein nach Besucherzahlen aus. Entscheidend sind Sichtbarkeit, natürlicher Laufweg, Zielgruppe, Zugang, Sortiment und ein Betrieb, der im Alltag einfach funktioniert.</p>
+          <a class="button button-primary" href="#kontakt">Standort vorschlagen</a>
+        </div>
+
+        <ol class="pilot-steps reveal reveal-delay">
+          <li><span>01</span><div><h3>Erstgespräch</h3><p>Gäste, Frequenz, Fläche und Ziele verstehen.</p></div></li>
+          <li><span>02</span><div><h3>Standort-Check</h3><p>Platzierung, Sichtachse, Zugang, Strom, Branding und lokale Produkte klären.</p></div></li>
+          <li><span>03</span><div><h3>Pilotkonzept</h3><p>Gerät, Sortiment, Aufgabenverteilung und Kooperationsmodell passend zum Standort definieren.</p></div></li>
+          <li><span>04</span><div><h3>Test & Optimierung</h3><p>Verkäufe, Top-/Flop-Produkte, Nachfüllaufwand und technische Abläufe datenbasiert verbessern.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="contact-section" id="kontakt" aria-labelledby="kontakt-title">
+      <div class="shell contact-card reveal">
+        <div class="contact-copy">
+          <span class="section-kicker light">Pilot &amp; Zusammenarbeit</span>
+          <h2 id="kontakt-title">Sie haben einen Ort, an dem Gäste gerne etwas mitnehmen würden?</h2>
+          <p>Wir prüfen gemeinsam, ob Fläche, Gästefrequenz und Standortlogik für einen Pilotbetrieb passen – unverbindlich und ohne vorgefertigtes Standardpaket.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-light" href="../#kontakt">Kontakt über Automatic Boxes</a>
+          <a class="text-link light-link" href="../">Zur Dachmarke Automatic Boxes <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div>
+        <a class="footer-brand" href="#top">Swiss Souvenir Box</a>
+        <p>Eine Lösung von Automatic Boxes für touristische Retail-Flächen in der Schweiz.</p>
+      </div>
+      <div class="footer-meta">
+        <a href="../">Automatic Boxes</a>
+        <a href="#konzept">Konzept</a>
+        <a href="#partner">Standortpartner</a>
+        <span>© 2026 Automatic Boxes</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
