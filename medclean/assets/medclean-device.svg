@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 780" role="img" aria-labelledby="title desc">
+  <title id="title">MedClean Swiss Konzeptautomat</title>
+  <desc id="desc">Hochwertige schematische Visualisierung eines automatisierten Versorgungspunktes für Hygiene- und Pflegeprodukte.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf5f2"/><stop offset="1" stop-color="#dfece7"/></linearGradient>
+    <linearGradient id="machine" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fbfcfc"/><stop offset="1" stop-color="#e8efec"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d5e6df" stop-opacity=".92"/><stop offset="1" stop-color="#b8d1c7" stop-opacity=".72"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="30" stdDeviation="26" flood-color="#173f35" flood-opacity=".16"/></filter>
+  </defs>
+  <rect width="760" height="780" rx="34" fill="url(#bg)"/>
+  <circle cx="634" cy="132" r="98" fill="#cfe7df" opacity=".55"/>
+  <circle cx="133" cy="640" r="132" fill="#d9ebe5" opacity=".5"/>
+  <g filter="url(#shadow)" transform="translate(155 78)">
+    <rect x="0" y="0" width="450" height="615" rx="28" fill="url(#machine)" stroke="#c7d9d2"/>
+    <rect x="24" y="26" width="292" height="455" rx="20" fill="url(#glass)" stroke="#bad0c7"/>
+    <g fill="#f9fbfa" stroke="#a9c3b8">
+      <rect x="46" y="70" width="114" height="92" rx="12"/><rect x="178" y="70" width="114" height="92" rx="12"/>
+      <rect x="46" y="178" width="114" height="92" rx="12"/><rect x="178" y="178" width="114" height="92" rx="12"/>
+      <rect x="46" y="286" width="114" height="92" rx="12"/><rect x="178" y="286" width="114" height="92" rx="12"/>
+    </g>
+    <g fill="#187f6a" opacity=".95">
+      <rect x="80" y="96" width="46" height="42" rx="8"/>
+      <path d="M219 95h32v45h-32z"/><path d="M230 86h10v12h-10z"/>
+      <circle cx="103" cy="224" r="20"/><path d="M232 201c22 16 22 33 0 50-22-17-22-34 0-50Z"/>
+      <rect x="82" y="307" width="42" height="48" rx="8"/><path d="M209 312h48v38h-48z"/>
+    </g>
+    <rect x="338" y="26" width="88" height="190" rx="18" fill="#10201b"/>
+    <circle cx="382" cy="62" r="14" fill="#187f6a"/>
+    <path d="M377.5 52v20M367.5 62h20" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+    <rect x="352" y="95" width="60" height="6" rx="3" fill="#385249"/>
+    <rect x="352" y="111" width="47" height="6" rx="3" fill="#2d473e"/>
+    <rect x="352" y="150" width="60" height="28" rx="8" fill="#1a7f6a"/>
+    <rect x="338" y="240" width="88" height="74" rx="16" fill="#dce8e3" stroke="#c4d6cf"/>
+    <path d="M358 264h48M358 278h34" stroke="#79958a" stroke-width="5" stroke-linecap="round"/>
+    <rect x="24" y="505" width="402" height="84" rx="18" fill="#14352c"/>
+    <text x="48" y="544" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">MedClean</text>
+    <text x="48" y="567" fill="#9dd7c7" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.3">SWISS</text>
+    <circle cx="389" cy="547" r="22" fill="#187f6a"/>
+    <path d="M385 534h8v9h9v8h-9v9h-8v-9h-9v-8h9z" fill="#fff"/>
+    <rect x="67" y="602" width="44" height="8" rx="4" fill="#8da49b"/>
+    <rect x="339" y="602" width="44" height="8" rx="4" fill="#8da49b"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="48" y="120" width="130" height="40" rx="20" fill="#fff" fill-opacity=".84"/>
+    <circle cx="68" cy="140" r="5" fill="#187f6a"/><text x="82" y="145" font-size="12" font-weight="700" fill="#4f6c62">24/7 access</text>
+    <rect x="553" y="564" width="154" height="40" rx="20" fill="#fff" fill-opacity=".84"/>
+    <circle cx="575" cy="584" r="5" fill="#187f6a"/><text x="589" y="589" font-size="12" font-weight="700" fill="#4f6c62">Remote ready</text>
+  </g>
+</svg>
