@@ -1,0 +1,9 @@
+UPLOAD
+======
+Diese Dateien gehören direkt in den bestehenden GitHub-Ordner /medclean/:
+- index.html
+- style.css
+- script.js
+- assets/
+
+UPLOAD.txt ist nur diese kurze Anleitung und kann nach dem Upload gelöscht werden.
