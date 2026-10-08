@@ -1,9 +1,13 @@
-UPLOAD
-======
-Diese Dateien gehören direkt in den bestehenden GitHub-Ordner /medclean/:
-- index.html
-- style.css
-- script.js
-- assets/
+UPLOAD IN GITHUB
+================
+1. ZIP entpacken.
+2. Den INHALT dieses Ordners direkt nach:
+   automatedboxes / main / medclean /
+   hochladen.
+3. Vorhandene index.html, style.css und script.js ersetzen.
+4. assets/ ebenfalls hochladen/ersetzen.
+5. Commit changes.
+6. Danach https://automatedboxes.ch/medclean/ neu laden.
 
-UPLOAD.txt ist nur diese kurze Anleitung und kann nach dem Upload gelöscht werden.
+Wichtig:
+Keinen zusätzlichen Unterordner medclean/medclean/ erzeugen.
